@@ -6,7 +6,7 @@
 
 body {
   color: white;
-  /* background-color: black; */
+  background-color: black;
 }
 
 /* HEADER */
@@ -15,7 +15,6 @@ header {
   justify-content: flex-end;
   align-items: center;
   height: 50px;
-  background-color: black;/*da togliere*/
 }
 
 header .btn {
@@ -23,4 +22,35 @@ header .btn {
   border-radius: 5px;
   margin-right: 5px;
   background-color: #4A4A4A;
+}
+
+/* MAIN */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto;
+  height: calc(100vh - 130px);  
+}
+
+.user {
+  position: relative;
+  width: 245px;
+  height: 145px;
+  margin: 3px;
+}
+
+.user .name {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 6px 4px;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* FOOTER */
+footer {
+  height: 80px;
+  background-color: #222222;
 }
