@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  /* background-color: black; */
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  background-color: black;/*da togliere*/
+}
+
+header .btn {
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+  background-color: #4A4A4A;
+}
