@@ -22,6 +22,7 @@ header .btn {
   border-radius: 5px;
   margin-right: 5px;
   background-color: #4A4A4A;
+  cursor: pointer;
 }
 
 /* MAIN */
@@ -51,6 +52,42 @@ main {
 
 /* FOOTER */
 footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 80px;
   background-color: #222222;
+}
+
+.footer-left, .footer-center, .footer-right { 
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.icon i {
+  font-size: 27px;
+  padding-bottom: 10px;
+}
+
+.icon .fa-chevron-up {
+  font-size: 16px;
+}
+
+.icon.active {
+  color: #32CA29;
+}
+
+.footer-right {
+  color: #ED091E;
+  background-color: #4A4A4A;
+  height: 100%;
+  padding: 20px;
+  cursor: pointer;
 }
